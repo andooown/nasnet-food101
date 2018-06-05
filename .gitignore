@@ -6,3 +6,5 @@
 
 # pipenv
 .venv/
+.env
+
