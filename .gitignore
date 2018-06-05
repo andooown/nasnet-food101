@@ -8,3 +8,6 @@
 .venv/
 .env
 
+# Dataset
+data
+
