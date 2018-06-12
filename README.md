@@ -1,6 +1,6 @@
-# Food101 for CoreML with NASNet
+# Food101 with NASNet
 
-NASNetをFood101でFinetuningし、CoreMLに変換
+NASNetをFood101でFinetuning
 
 
 ## License
