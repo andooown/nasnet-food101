@@ -10,4 +10,6 @@
 
 # Dataset
 data
-
+# Result
+result
+tflog
