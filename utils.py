@@ -4,6 +4,13 @@ from keras.applications.nasnet import preprocess_input
 from keras.preprocessing import image
 from PIL import Image
 import numpy as np
+import os
+
+
+def check_directory(dir_path):
+    if not os.path.exists(dir_path):
+        print('Create directory: {}'.format(dir_path))
+        os.makedirs(dir_path, exist_ok=True)
 
 
 def preprocess(img_file, target_size, transform=True):
