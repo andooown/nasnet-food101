@@ -1,0 +1,15 @@
+# Python
+*.pyc
+
+# PyCharm
+.idea/
+
+# pipenv
+.venv/
+.env
+
+# Dataset
+data
+# Result
+result
+tflog
